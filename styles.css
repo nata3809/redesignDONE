@@ -1,0 +1,54 @@
+/* header */
+.banner {
+  background: rgb(255, 255, 255);
+
+  /* Løsning: tilføj */
+  display: flex;
+  flex-flow: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px 40px;
+}
+
+.banner ul {
+  list-style: none;
+  padding: 0;
+
+  /* Løsning: tilføj */
+  display: flex;
+  gap: 10px;
+}
+
+/* burgermenu */
+.toggle-btn {
+  display: none;
+}
+
+@media (max-width: 800px) {
+  .toggle-btn {
+    background: transparent;
+    border: none;
+    display: block;
+    min-width: 44px;
+    min-height: 44px;
+    font-size: 1.1rem;
+    cursor: pointer;
+  }
+
+  nav {
+    display: none;
+  }
+
+  nav.shown {
+    border-top: 1px solid rgb(40, 38, 38);
+    padding-top: 1rem;
+    display: flex;
+    flex: 1 1 100%;
+    flex-flow: column;
+  }
+
+  nav ul {
+    display: flex;
+    flex-flow: column;
+  }
+}

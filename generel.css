@@ -1,0 +1,131 @@
+html {
+  --h1farve: rgb(2, 2, 2);
+  --tekstfarve: rgb(37, 65, 33);
+
+  --h4farve: white;
+  background-color: rgba(216, 216, 212, 0.455);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+/******main******/
+main {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  /* margin-left: 99px;
+  margin-right: 100px; */
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body {
+  background-color: rgba(216, 216, 212, 0.455);
+}
+
+/****HEADER****/
+header {
+  position: relative;
+  border-radius: 1rem;
+  text-align: right;
+  padding: 10px 0px;
+  font-size: 1.2rem;
+  border: 3px;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  font-family: "Krub", sans-serif;
+  font-size: 1rem;
+}
+header a {
+  margin-left: 6rem;
+  text-decoration: none;
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+a:visited {
+  color: rgb(30, 66, 36);
+  font-size: 1rem;
+}
+a:hover {
+  color: var(--tekstfarve);
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.logo {
+  margin-bottom: 1px;
+  margin-left: 10px;
+  margin-top: -20px;
+}
+.logo img {
+  width: 40%;
+}
+/****TEKSTER***/
+h1 {
+  font-family: "Krub", sans-serif;
+  font-size: 4rem;
+  color: var(--tekstfarve);
+}
+
+h2 {
+  font-family: "Krub", sans-serif;
+  font-size: 2.7rem;
+  color: var(--tekstfarve);
+}
+
+h3 {
+  font-family: "Krub", sans-serif;
+  font-size: 1.2rem;
+  color: var(--tekstfarve);
+}
+
+h4 {
+  font-family: "Krub", sans-serif;
+  font-size: 4rem;
+  color: var(--h4farve);
+}
+
+h5 {
+  font-family: "Krub", sans-serif;
+  font-size: 2.1rem;
+  color: var(--tekstfarve);
+}
+
+h6 {
+  font-family: "Krub", sans-serif;
+  font-size: 2rem;
+  color: var(--tekstfarve);
+  margin-top: 0;
+}
+
+p {
+  font-family: "Krub", sans-serif;
+  font-size: 1rem;
+  color: var(--tekstfarve);
+}
+
+ul {
+  font-family: "Krub", sans-serif;
+  font-size: 1.1rem;
+  color: var(--tekstfarve);
+  margin-left: 60px;
+}
+
+/**Burger menu**/
+
+@media (max-width: 799px) {
+  main {
+    margin: 5px;
+  }
+}

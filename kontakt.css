@@ -1,0 +1,234 @@
+/********* Kontakt os computer **********/
+@media (min-width: 800px) {
+  form {
+    display: grid;
+    padding: 2rem;
+    border-radius: 8px;
+    gap: 30px;
+  }
+
+  .form-felt {
+    display: grid;
+    gap: 3px;
+  }
+  label,
+  input,
+  textarea,
+  select,
+  button {
+    display: block;
+    color: var(--tekstfarve);
+    font-weight: bold;
+  }
+
+  button {
+    color: beige;
+    width: 250px;
+    height: 42px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    background-color: #4d604b;
+  }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-top: 16px;
+    background-image: url("img/kontaktosbillede2.png");
+  }
+  .grid_1-2 {
+    padding-left: 90px;
+    padding-top: 100px;
+    line-height: 41px;
+  }
+  .grid_1-3 {
+    margin-top: 94px;
+  }
+
+  #streg1 {
+    padding-top: 40px;
+  }
+  h2 {
+    padding-bottom: 20px;
+  }
+  /********* Footer computer **********/
+  footer {
+    background-color: #4d604b;
+    width: 100%;
+    min-height: 250px;
+    padding: 10px 10px 25px 10px;
+    margin-top: 50px;
+  }
+
+  .footer_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+  }
+
+  .h3footer {
+    color: white;
+    font-family: "Krub", sans-serif;
+  }
+
+  footer p {
+    font-family: "Krub", sans-serif;
+    font-size: 13px;
+    color: #ccc;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+  }
+
+  .footerlist {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+  }
+  .footerlist li {
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+  .footerlist li a {
+    color: #ccc;
+  }
+  .footerlist li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .arbtider {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+    color: #ccc;
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+}
+
+@media (max-width: 799px) {
+  /********* Kontakt os mobil **********/
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+    margin-top: 16px;
+    background-image: url("img/kontaktosbillede2.png");
+  }
+  .grid_1-3 {
+    margin-left: 40px;
+  }
+  form {
+    margin-left: 140px;
+  }
+  form {
+    display: grid;
+    padding: 2rem;
+    border-radius: 8px;
+    gap: 30px;
+  }
+
+  .form-felt {
+    display: grid;
+    gap: 3px;
+  }
+  label,
+  input,
+  textarea,
+  select,
+  button {
+    display: block;
+    color: var(--tekstfarve);
+    font-weight: bold;
+  }
+
+  button {
+    height: 42px;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    background-color: #4d604b;
+  }
+
+  .grid_1-2 {
+    padding-left: 90px;
+    padding-top: 100px;
+  }
+
+  #streg1 {
+    padding-top: 40px;
+  }
+  h2 {
+    padding-bottom: 20px;
+  }
+
+  /********* Footer mobil **********/
+
+  footer {
+    background-color: #4d604b;
+    width: 100%;
+    min-height: 250px;
+    padding: 10px 10px 25px 10px;
+    margin-top: 50px;
+  }
+
+  .footer_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+  }
+
+  .h3footer {
+    color: white;
+    font-family: "Krub", sans-serif;
+  }
+
+  footer p {
+    font-family: "Krub", sans-serif;
+    font-size: 13px;
+    color: #ccc;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+  }
+
+  .footerlist {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+  }
+  .footerlist li {
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+  .footerlist li a {
+    color: #ccc;
+  }
+  .footerlist li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .arbtider {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+    color: #ccc;
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+}

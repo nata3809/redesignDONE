@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 50%;
+  display: block;
+}
+
+.showcase {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.video_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.video_container video {
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.video_container:after {
+  content: "";
+}
+
+.content {
+  z-index: 10;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: aliceblue;
+  color: antiquewhite;
+  border: 1px;
+  border-radius: 5px;
+  margin-top: 25px;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}
+.logo {
+  margin-bottom: 1px;
+  margin-left: 10px;
+  margin-top: -20px;
+}
+.logo img {
+  width: 40%;
+}
+@media (min-width: 800px) {
+  /***Footer computer ***/
+  footer {
+    background-color: #4d604b;
+    width: 100%;
+    min-height: 250px;
+    padding: 10px 10px 25px 10px;
+    margin-top: 5px;
+  }
+
+  .footer_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    text-align: center;
+  }
+
+  .h3footer {
+    color: white;
+    font-family: "Krub", sans-serif;
+  }
+
+  footer p {
+    font-family: "Krub", sans-serif;
+    font-size: 13px;
+    color: #ccc;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+  }
+
+  .footerlist {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+  }
+  .footerlist li {
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+  .footerlist li a {
+    color: #ccc;
+  }
+  .footerlist li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .arbtider {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+    color: #ccc;
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+}
+
+/***Footer mobil ***/
+@media (max-width: 799px) {
+  footer {
+    background-color: #4d604b;
+    width: 100%;
+    min-height: 250px;
+    padding: 10px 10px 25px 10px;
+  }
+
+  .footer_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+  }
+
+  .h3footer {
+    color: white;
+    font-family: "Krub", sans-serif;
+  }
+
+  footer p {
+    font-family: "Krub", sans-serif;
+    font-size: 13px;
+    color: #ccc;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+  }
+
+  .footerlist {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+  }
+  .footerlist li {
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+  .footerlist li a {
+    color: #ccc;
+  }
+  .footerlist li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .arbtider {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+    color: #ccc;
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+}

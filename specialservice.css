@@ -1,0 +1,327 @@
+@media (min-width: 800px) {
+  /*****Titel og overskrift*****/
+
+  #grid_1_1 {
+    opacity: 80%;
+  }
+
+  .grid_1_2 {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #logo img {
+    width: 50%;
+  }
+  /****Symboler***/
+
+  .grid_1_8 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .symboler {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+  }
+
+  .symboler img {
+    height: 100px;
+    width: auto;
+  }
+
+  @media (min-width: 800px) {
+    /***Footer computer ***/
+    footer {
+      background-color: #4d604b;
+      width: 100%;
+      min-height: 250px;
+      padding: 10px 10px 25px 10px;
+      margin-top: 50px;
+    }
+
+    .footer_grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      text-align: center;
+    }
+
+    .h3footer {
+      color: white;
+      font-family: "Krub", sans-serif;
+    }
+
+    footer p {
+      font-family: "Krub", sans-serif;
+      font-size: 13px;
+      color: #ccc;
+      padding-bottom: 0px;
+      margin-bottom: 8px;
+    }
+
+    .footerlist {
+      margin: 0px;
+      list-style-type: none;
+      font-size: 14px;
+      padding: 0px 0px 10px 0px;
+    }
+    .footerlist li {
+      padding: 0px 0px 5px 0px;
+      font-family: "Krub", sans-serif;
+    }
+    .footerlist li a {
+      color: #ccc;
+    }
+    .footerlist li a:hover {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .arbtider {
+      margin: 0px;
+      list-style-type: none;
+      font-size: 14px;
+      padding: 0px 0px 10px 0px;
+      color: #ccc;
+      padding: 0px 0px 5px 0px;
+      font-family: "Krub", sans-serif;
+    }
+
+    a:link {
+      text-decoration: none;
+    }
+  }
+
+  /***specialservice**/
+
+  .grid_2_2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .grid_2_3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  /****KNAP****/
+  .cta {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: #4d604b;
+    border-style: solid;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin-top: 50px;
+  }
+  .cta:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 63, 51);
+  }
+  a.cta {
+    font-family: "Krub", sans-serif;
+    font-size: 1rem;
+  }
+
+  .grid_knap {
+    margin-top: 62px;
+  }
+  /***Rodfræsning***/
+
+  #træ1 {
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+
+  .grid_3_33 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 48px;
+  }
+  .grid_3_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+
+  .grid_3_44 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .grid_3_5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  /***Flis**/
+
+  .grid_4_44 {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-bottom: 48px;
+  }
+  .grid_4_4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+  }
+  .grid_4_5 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .grid_4_7 {
+    margin-top: 320px;
+  }
+  .grid_4_6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /**Streg**/
+  #streg {
+    margin-top: 14px;
+    margin-bottom: 22px;
+  }
+  #streg1 {
+    margin-top: -62px;
+    margin-bottom: 9px;
+  }
+
+  #streg2 {
+    margin-top: 23px;
+    margin-bottom: 9px;
+  }
+}
+
+/****************MOBILSITE****************/
+
+@media (max-width: 799px) {
+  /*****Titel og overskrift*****/
+
+  #grid_1_1 {
+    opacity: 50%;
+    display: none;
+  }
+
+  .grid_1_2 {
+    display: none;
+  }
+
+  .grid_1_8 {
+    display: none;
+  }
+
+  /****Specialservice***/
+
+  .grid_2_2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .grid_4_6 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+/***Footer mobil ***/
+@media (max-width: 799px) {
+  footer {
+    background-color: #4d604b;
+    width: 100%;
+    min-height: 250px;
+    padding: 10px 10px 25px 10px;
+    margin-top: 50px;
+  }
+
+  .footer_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    text-align: center;
+  }
+
+  .h3footer {
+    color: white;
+    font-family: "Krub", sans-serif;
+  }
+
+  footer p {
+    font-family: "Krub", sans-serif;
+    font-size: 13px;
+    color: #ccc;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
+  }
+
+  .footerlist {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+  }
+  .footerlist li {
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+  .footerlist li a {
+    color: #ccc;
+  }
+  .footerlist li a:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .arbtider {
+    margin: 0px;
+    list-style-type: none;
+    font-size: 14px;
+    padding: 0px 0px 10px 0px;
+    color: #ccc;
+    padding: 0px 0px 5px 0px;
+    font-family: "Krub", sans-serif;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  /****KNAP****/
+  .cta {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: #4d604b;
+    border-style: solid;
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin-top: 50px;
+  }
+  .cta:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(50, 63, 51);
+  }
+  a.cta {
+    font-family: "Krub", sans-serif;
+    font-size: 1rem;
+  }
+
+  .grid_knap {
+    margin-top: 62px;
+    margin-bottom: 20px;
+  }
+}

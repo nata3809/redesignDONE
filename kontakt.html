@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="kontakt.css">
+    <link rel="stylesheet" href="generel.css">
+    <link rel="stylesheet" href="styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@600&display=swap" rel="stylesheet">
+
+    <title>Kontakt</title>
+</head>
+
+<body>
+    <header class="banner">
+        <div class="logo">
+            <a href="index.html"><img src="/img/symboler/logo.svg" alt="d"></a>
+        </div>
+
+        <button class="toggle-btn">Menu</button>
+
+        <nav>
+            <ul id="horizontal-list">
+                <li><a href="traefaeldning.html">Træfældning</a></li>
+                <li><a href="specialservice.html">Specialservice</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="grid_1-1">
+            <div class="grid_1-2">
+                <h2>Kontakt os</h2>
+                <h3>Udfyld kontaktformularen for at kontakte os. Vi glæder os til at høre fra dig.
+                </h3>
+            </div>
+            <div class="grid_1-3">
+                <form name="kontakt" netlify>
+                    <div class="form-felt">
+                        <label>
+                            Fulde navn
+                            <input placeholder="fx Peter Jensen" id="navn" type="text" name="fnavn" required>
+                        </label>
+                    </div>
+
+                    <div class="form-felt">
+                        <label>
+                            E-mail
+                            <input placeholder="fx peter@gmail.com" id="email" type="email" name="email" required>
+                        </label>
+                    </div>
+
+                    <div class="form-felt">
+                        <label>
+                            telefonnummer
+                            <input placeholder="fx 23 23 23 23" id="phone" type="tel" name="phone" required>
+                        </label>
+                    </div>
+                    <div class="form-felt">
+                        <label>
+                            Besked (valgfri)
+                            <textarea name="besked" rows="5"></textarea>
+                        </label>
+                    </div>
+
+                    <button>Indsend</button>
+                </form>
+            </div>
+        </div>
+        <div>
+            <img id="streg1" src="img/symboler/et_trae.png" alt="streg">
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_grid">
+            <div>
+
+                <h3 class="h3footer">Kontakt os</h3>
+
+                <p>Adresse <br>
+                    telefonnummer <br>
+                    E-mail <br>
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, dolorum debitis quos aspernatur a
+                    repellendus alias soluta ullam sequi minima, incidunt fugit cupiditate dolore, voluptas fuga
+                    doloribus
+                    reiciendis quibusdam earum?
+                </p>
+
+            </div>
+            <div>
+                <h3 class="h3footer">Services</h3>
+                <ul class="footerlist">
+                    <li><a href="traefaeldning.html">Træfældning</a></li>
+                    <li><a href="specialservice.html">Special Services</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="h3footer">Arbejdstider</h3>
+
+                <ul class="arbtider">
+                    <li>Mandag &nbsp; 08:00 - 16:00</li>
+                    <li>Tirsdag &nbsp; 08:00 - 16:00</li>
+                    <li>Onsdag &nbsp; 08:00 - 16:00</li>
+                    <li>Torsdag &nbsp; 08:00 - 16:00</li>
+                    <li>Fredag &nbsp; 08:00 - 14:00</li>
+                    <li>Weekend &nbsp; Lukket</li>
+
+                </ul>
+            </div>
+
+        </div>
+
+
+    </footer>
+    <script src="script1.js"></script>
+</body>
+
+</html>
