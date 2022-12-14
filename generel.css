@@ -37,6 +37,7 @@ header {
   padding: 10px 0px;
   font-size: 1.2rem;
   border: 3px;
+  padding-right: 21px;
 }
 
 ul#horizontal-list li {
