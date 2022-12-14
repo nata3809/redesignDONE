@@ -6,10 +6,6 @@
     margin: 0 auto;
   }
 
-  #logo img {
-    padding-left: 0;
-  }
-
   .grid_1_1 {
     opacity: 50%;
   }
@@ -27,11 +23,15 @@
   /***Tekst***/
   .grid_5_6 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     gap: 140px;
     margin: 1rem;
   }
 }
+.text1 {
+  padding-top: 1rem;
+}
+
 /**Footer**/
 footer {
   background-color: #4d604b;
@@ -93,12 +93,13 @@ footer p {
 a:link {
   text-decoration: none;
 }
-
+.text1 {
+  margin-top: 1rem;
+}
 /****Billeder**/
 /* Slideshow container */
 .slideshow-container {
-  left: 10%;
-  width: 80%;
+  width: 100%;
   position: relative;
   margin-top: 2rem;
 }
